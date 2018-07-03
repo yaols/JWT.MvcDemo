@@ -1,4 +1,5 @@
-﻿using JWT.MvcDemo.App_Start;
+﻿using JWT.Common;
+using JWT.MvcDemo.App_Start;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,6 +14,8 @@ namespace JWT.MvcDemo.Controllers
     {
         public ActionResult Index()
         {
+            Log4Help.Info("1111");
+            Log4Help.Error("12345",null);
             return View();
         }
 

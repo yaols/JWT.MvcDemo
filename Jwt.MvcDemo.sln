@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWT.MvcDemo", "JWT.MvcDemo\JWT.MvcDemo.csproj", "{46B01C57-9C81-426B-B917-9FEBFD85950D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWT.Common", "JWT.Common\JWT.Common.csproj", "{86C4137E-3FBD-45BC-9885-380E229B1831}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{46B01C57-9C81-426B-B917-9FEBFD85950D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46B01C57-9C81-426B-B917-9FEBFD85950D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46B01C57-9C81-426B-B917-9FEBFD85950D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86C4137E-3FBD-45BC-9885-380E229B1831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86C4137E-3FBD-45BC-9885-380E229B1831}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86C4137E-3FBD-45BC-9885-380E229B1831}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86C4137E-3FBD-45BC-9885-380E229B1831}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
